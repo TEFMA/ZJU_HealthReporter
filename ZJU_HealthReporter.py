@@ -154,8 +154,6 @@ def send_mail(receivers, statu, content):
     mail_pass = 'XX'
     # 邮件发送方邮箱地址
     sender = 'XX@qq.com'
-    # 邮件接受方邮箱地址，注意需要[]包裹，这意味着你可以写多个邮件地址群发
-    # receivers = ['59*****02@qq.com']
 
     # 设置email信息
     # 邮件内容设置
@@ -236,8 +234,8 @@ def get_random_minutes():
 
 
 if __name__ == "__main__":
-    user = ['user1', 'passwd', 'receiver@email.com']#, ('user2', 'passwd', 'receiver@email.com')]
-    daka_time = [7, 6] #7:06
+    user = ['user1', 'passwd', 'receiver@email.com'] #, ('user2', 'passwd', 'receiver@email.com')]
+    daka_time = [7, 6] # daily report at 7:06
 
 
     # Schedule task
