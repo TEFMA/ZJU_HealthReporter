@@ -149,11 +149,11 @@ def send_mail(receivers, statu, content):
     # 邮箱服务器地址
     mail_host = 'smtp.qq.com'
     # 用户名
-    mail_user = '937623551@qq.com'
+    mail_user = 'XX@qq.com'
     # 密码(部分邮箱为授权码)
-    mail_pass = 'koompvmsdkkabcbh'
+    mail_pass = 'XX'
     # 邮件发送方邮箱地址
-    sender = '937623551@qq.com'
+    sender = 'XX@qq.com'
     # 邮件接受方邮箱地址，注意需要[]包裹，这意味着你可以写多个邮件地址群发
     # receivers = ['59*****02@qq.com']
 
@@ -236,7 +236,7 @@ def get_random_minutes():
 
 
 if __name__ == "__main__":
-    user = ['12130015', '123456m,t.f', 'tengfei.ma@zju.edu.cn']#, ('user2', 'passwd', 'receiver@email.com')]
+    user = ['user1', 'passwd', 'receiver@email.com']#, ('user2', 'passwd', 'receiver@email.com')]
     daka_time = [7, 6] #7:06
 
 
