@@ -248,10 +248,3 @@ if __name__ == "__main__":
     except (KeyboardInterrupt, SystemExit):
         pass
 
-    '''
-    for user in user_list:
-        try:
-            main(user[0], user[1], user[2])
-        except Exception:
-            pass
-    '''
